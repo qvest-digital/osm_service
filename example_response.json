@@ -1,0 +1,2348 @@
+{
+    "input": {
+        "center": {
+            "lat": 50.73582,
+            "lon": 7.099056
+        },
+        "radius": 500
+    },
+    "result": {
+        "relative_type_of_area": {
+            "commercial": {
+                "count": 4,
+                "total_area": 36742.43559469808,
+                "unit": "m^2"
+            },
+            "residential": {
+                "count": 7,
+                "total_area": 1967381.0270320429,
+                "unit": "m^2"
+            },
+            "retail": {
+                "count": 2,
+                "total_area": 345012.6386452603,
+                "unit": "m^2"
+            }
+        },
+        "malls": [
+            {
+                "distance": 22504.21748934,
+                "location": {
+                    "lat":50.9131272,
+                    "lon":6.9452946
+                },
+                "name":"Zollstock Arkaden",
+                "other_tags": {
+                    "shop":"mall",
+                    "wheelchair":"limited"
+                },
+                "unit":"m"
+            }
+        ],
+        "chemists": [
+            {
+                "distance": 28.0773416,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7358226,
+                    "lon": 7.0994537
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "50",
+                    "addr:postcode": "53111",
+                    "addr:street": "Sternstra\\u00dfe",
+                    "brand": "Rossmann",
+                    "brand:wikidata": "Q316004",
+                    "brand:wikipedia": "de:Dirk Rossmann GmbH",
+                    "contact:phone": "+49 228 9086814",
+                    "contact:website": "https://www.rossmann.de",
+                    "opening_hours": "Mo-Sa 09:00-20:00; Su,PH off",
+                    "operator": "Dirk Rossmann GmbH",
+                    "ref:shop:num": "1610",
+                    "ref:vatin": "DE115055186",
+                    "shop": "chemist",
+                    "wheelchair": "yes"
+                },
+                "name": "Rossmann"
+            },
+            {
+                "distance": 129.8066686,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7359709,
+                    "lon": 7.0972327
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:housenumber": "1-3",
+                    "addr:postcode": "53111",
+                    "addr:street": "Friedensplatz",
+                    "brand": "dm",
+                    "brand:wikidata": "Q266572",
+                    "brand:wikipedia": "en:Dm-drogerie markt",
+                    "level": "-1",
+                    "opening_hours": "Mo-Sa 08:00-20:00",
+                    "phone": "+49 228 20709180",
+                    "shop": "chemist",
+                    "wheelchair": "yes"
+                },
+                "name": "dm"
+            },
+            {
+                "distance": 231.56122807,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7339194,
+                    "lon": 7.0977183
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:housenumber": "23",
+                    "addr:postcode": "53111",
+                    "addr:street": "Poststra\\u00dfe",
+                    "brand": "dm",
+                    "brand:wikidata": "Q266572",
+                    "brand:wikipedia": "en:Dm-drogerie markt",
+                    "level": "-1",
+                    "opening_hours": "Mo-Sa 10:00-18:00; Su, PH geschlossen",
+                    "shop": "chemist",
+                    "website": "https://www.dm.de/store/de-2885/bonn/poststrasse-23",
+                    "wheelchair": "yes"
+                },
+                "name": "dm"
+            },
+            {
+                "distance": 363.08886836,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7326738,
+                    "lon": 7.1004248
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "2a",
+                    "addr:postcode": "53113",
+                    "addr:street": "Martinsplatz",
+                    "brand": "dm",
+                    "brand:wikidata": "Q266572",
+                    "brand:wikipedia": "en:Dm-drogerie markt",
+                    "level": "-1",
+                    "opening_hours": "Mo-Fr 08:30-20:00; Sa 09:00-20:00",
+                    "operator": "dm-drogerie markt",
+                    "shop": "chemist"
+                },
+                "name": "dm"
+            },
+            {
+                "distance": 366.30286709,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7326433,
+                    "lon": 7.0976903
+                },
+                "other_tags": {
+                    "brand": "dm",
+                    "brand:wikidata": "Q266572",
+                    "brand:wikipedia": "en:Dm-drogerie markt",
+                    "level": "-1",
+                    "opening_hours": "Mo-Fr 07:00-20:00; Sa 09:00-20:00",
+                    "payment:american_express": "yes",
+                    "payment:cash": "yes",
+                    "payment:contactless": "yes",
+                    "payment:girocard": "yes",
+                    "payment:maestro": "yes",
+                    "payment:mastercard": "yes",
+                    "payment:visa": "yes",
+                    "payment:v_pay": "yes",
+                    "shop": "chemist",
+                    "start_date": "2019-05-02"
+                },
+                "name": "dm"
+            }
+        ],
+        "convenience": [
+            {
+                "distance": 8.0753462,
+                "unit": "m",
+                "location": {
+                    "lat": 50.735794,
+                    "lon": 7.0989492
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "62",
+                    "addr:postcode": "53111",
+                    "addr:street": "Sternstra\\u00dfe",
+                    "fax": "+49 228 94 559 311",
+                    "opening_hours": "Mo-Sa 09:00-20:00",
+                    "organic": "yes",
+                    "phone": "+49 228 94559310",
+                    "shop": "convenience",
+                    "website": "http://www.reformhaus-bacher.de/"
+                },
+                "name": "Reformhaus Bacher"
+            },
+            {
+                "distance": 109.107956,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7367067,
+                    "lon": 7.0997166
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "19",
+                    "addr:postcode": "53111",
+                    "addr:street": "Friedrichstra\\u00dfe",
+                    "opening_hours": "Mo-Fr 10:30-19:00, Sa 10:00-18:00",
+                    "origin": "asian",
+                    "shop": "convenience",
+                    "wheelchair": "limited"
+                },
+                "name": "Sino Asia Markt"
+            },
+            {
+                "distance": 246.18372807,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7366572,
+                    "lon": 7.1022841
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "23",
+                    "addr:postcode": "53111",
+                    "addr:street": "Wenzelgasse",
+                    "opening_hours": "Mo-Th 07:00-00:00; Fr 07:00-01:00; Sa 07:00-03:00; Su 09:00-00:00",
+                    "payment:american_express": "yes",
+                    "payment:coins": "yes",
+                    "payment:contactless": "yes",
+                    "payment:girocard": "yes",
+                    "payment:maestro": "yes",
+                    "payment:mastercard": "yes",
+                    "payment:notes": "yes",
+                    "payment:visa": "yes",
+                    "payment:visa_debit": "yes",
+                    "payment:visa_electron": "yes",
+                    "phone": "+49 228 97668850",
+                    "shop": "convenience",
+                    "toilets:wheelchair": "no",
+                    "website": "https://togo.rewe.de/",
+                    "wheelchair": "yes"
+                },
+                "name": "REWE To Go"
+            },
+            {
+                "distance": 286.69616413,
+                "unit": "m",
+                "location": {
+                    "lat": 50.733979,
+                    "lon": 7.0962141
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "11",
+                    "addr:postcode": "53111",
+                    "addr:street": "M\\u00fcnsterstra\\u00dfe",
+                    "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-18:30",
+                    "opening_hours:check_date": "2019-12-22",
+                    "phone": "+49 228 4337791",
+                    "shop": "convenience",
+                    "wheelchair": "limited"
+                },
+                "name": "Mini Asia"
+            },
+            {
+                "distance": 357.49365215,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7346062,
+                    "lon": 7.1037448
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "15",
+                    "addr:postcode": "53113",
+                    "addr:street": "Stockenstra\\u00dfe",
+                    "branch": "Bonn-Hofgarten",
+                    "contact:website": "http://www.bergfelds.de/",
+                    "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-18:00; Su,PH off",
+                    "operator": "Bergfeld's Naturkost GmbH",
+                    "organic": "only",
+                    "shop": "convenience",
+                    "wheelchair": "no"
+                },
+                "name": "Bergfeld's Biomarkt"
+            },
+            {
+                "distance": 360.27944407,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7388588,
+                    "lon": 7.1008211
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:housenumber": "24a",
+                    "addr:postcode": "53111",
+                    "addr:street": "K\\u00f6lnstra\\u00dfe",
+                    "cuisine": "asian;african;pakistani;thai;korean;chinese;indian",
+                    "goods": "Afro-hair",
+                    "opening_hours": "Mo-Sa 09:00-20:00",
+                    "shop": "convenience",
+                    "wheelchair": "no"
+                },
+                "name": "Asian-Afro-Shop"
+            },
+            {
+                "distance": 381.4653742,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7325397,
+                    "lon": 7.0974815
+                },
+                "other_tags": {
+                    "brand": "Rewe",
+                    "brand:wikidata": "Q16968817",
+                    "brand:wikipedia": "de:Rewe_(Markt)",
+                    "level": "-1",
+                    "opening_hours": "Mo-Su 05:00-00:00",
+                    "shop": "convenience",
+                    "start_date": "2019-05-23"
+                },
+                "name": "REWE to go"
+            },
+            {
+                "distance": 404.95941246,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7323482,
+                    "lon": 7.100781
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "14",
+                    "addr:postcode": "53113",
+                    "addr:street": "Kaiserplatz",
+                    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00",
+                    "organic": "only",
+                    "shop": "convenience"
+                },
+                "name": "Reformhaus Bacher"
+            },
+            {
+                "distance": 468.91263851,
+                "unit": "m",
+                "location": {
+                    "lat": 50.73837,
+                    "lon": 7.0937669
+                },
+                "other_tags": {
+                    "shop": "convenience",
+                    "wheelchair": "no"
+                },
+                "name": "Efrin"
+            },
+            {
+                "distance": 489.00366572,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7324255,
+                    "lon": 7.0946551
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "70",
+                    "addr:postcode": "53115",
+                    "addr:street": "Meckenheimer Allee",
+                    "fax": "+49 228 8865175",
+                    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00; Su,PH off",
+                    "phone": "+49 228 639033",
+                    "shop": "convenience",
+                    "wheelchair": "no"
+                },
+                "name": "Asiamarkt Bonn"
+            }
+        ],
+        "supermarkets": [
+            {
+                "distance": 159.92100583,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7359858,
+                    "lon": 7.0968058
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:housenumber": "1-3",
+                    "addr:postcode": "53111",
+                    "addr:street": "Friedensplatz",
+                    "brand": "Rewe",
+                    "brand:wikidata": "Q16968817",
+                    "brand:wikipedia": "en:REWE",
+                    "internet_access": "wlan",
+                    "level": "-1",
+                    "opening_hours": "Mo-Sa 07:00-24:00",
+                    "operator": "REWE Markt GmbH",
+                    "phone": "+49 228 68446914",
+                    "shop": "supermarket",
+                    "website": "https://www.rewe.de/",
+                    "wheelchair": "yes"
+                },
+                "name": "Rewe"
+            },
+            {
+                "distance": 199.96818861,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7376171,
+                    "lon": 7.0989908
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:housenumber": "12-16",
+                    "addr:postcode": "53111",
+                    "addr:street": "Oxfordstra\\u00dfe",
+                    "description": "Modern asian supermarket with a wide variety of products.",
+                    "opening_hours": "Mo-Sa 09:00-21:00",
+                    "payment:cash": "yes",
+                    "payment:credit_cards": "yes",
+                    "shop": "supermarket",
+                    "website": "http://www.mein-asiamarkt.de/",
+                    "wheelchair": "yes"
+                },
+                "name": "Tains \\u5927\\u718a\\u732b\\u8d85\\u5e02"
+            },
+            {
+                "distance": 204.48384991,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7341214,
+                    "lon": 7.0979489
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:housenumber": "23",
+                    "addr:postcode": "53111",
+                    "addr:street": "Poststra\\u00dfe",
+                    "brand": "Aldi S\\u00fcd",
+                    "brand:wikidata": "Q41171672",
+                    "brand:wikipedia": "en:Aldi",
+                    "level": "-1",
+                    "opening_hours": "Mo-Sa 09:30-20:00; Su,PH off",
+                    "shop": "supermarket"
+                },
+                "name": "Aldi S\\u00fcd"
+            },
+            {
+                "distance": 298.22733775,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7360112,
+                    "lon": 7.0948423
+                },
+                "other_tags": {
+                    "shop": "supermarket",
+                    "origin": "asian",
+                    "opening_hours": "Mo-Sa 10:00-19:00"
+                },
+                "name": "Jinlong Asia Supermarkt"
+            },
+            {
+                "distance": 311.86526888,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7383811,
+                    "lon": 7.1008528
+                },
+                "other_tags": {
+                    "brand": "denn's Biomarkt",
+                    "brand:wikidata": "Q48883773",
+                    "brand:wikipedia": "de:Dennree",
+                    "contact:website": "http://www.denns-biomarkt.de/93_bonn.html",
+                    "opening_hours": "Mo-Sa 08:00-20:00; Su,PH off",
+                    "organic": "only",
+                    "shop": "supermarket",
+                    "wheelchair": "yes"
+                },
+                "name": "denn's Biomarkt"
+            },
+            {
+                "distance": 363.88404773,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7325615,
+                    "lon": 7.0986046
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "2-4",
+                    "addr:postcode": "53111",
+                    "addr:street": "Gangolfstra\\u00dfe",
+                    "brand": "basic",
+                    "brand:wikidata": "Q809994",
+                    "brand:wikipedia": "de:Basic AG",
+                    "bulk_purchase": "yes",
+                    "contact:phone": "+49 228 36942300",
+                    "contact:website": "http://basicbio.de/",
+                    "opening_hours": "Mo-Sa 08:00-20:00; Su,PH off",
+                    "opening_hours:check_date": "2019-01-08",
+                    "organic": "only",
+                    "shop": "supermarket",
+                    "wheelchair": "limited"
+                },
+                "name": "Basic Bio"
+            },
+            {
+                "distance": 429.25859626,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7391274,
+                    "lon": 7.0959237
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "53",
+                    "addr:postcode": "53111",
+                    "addr:street": "Breite Stra\\u00dfe",
+                    "contact:phone": "+49 228 653858",
+                    "contact:website": "https://www.ihredls.de",
+                    "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-14:00; Su,PH off",
+                    "operator": "DLS M\\u00fchlenb\\u00e4ckerei",
+                    "organic": "only",
+                    "shop": "supermarket",
+                    "wheelchair": "no"
+                },
+                "name": "Gr\\u00fcner Laden"
+            },
+            {
+                "distance": 484.88754595,
+                "unit": "m",
+                "location": {
+                    "lat": 50.73188,
+                    "lon": 7.0961184
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "23",
+                    "addr:postcode": "53115",
+                    "addr:street": "Quantiusstra\\u00dfe",
+                    "brand": "Alnatura",
+                    "brand:wikidata": "Q876811",
+                    "brand:wikipedia": "en:Alnatura",
+                    "contact:website": "https://www.alnatura.de/de-de/m%C3%A4rkte/alnatura-filialen-detailseiten/b/bonn-alnatura-super-natur-markt-bn073",
+                    "opening_hours": "Mo-Sa 08:00-20:00; Su,PH off",
+                    "organic": "only",
+                    "shop": "supermarket",
+                    "wheelchair": "yes"
+                },
+                "name": "Alnatura"
+            }
+        ],
+        "parks": [
+            {
+                "distance": 268.40081518,
+                "unit": "m",
+                "location": {
+                    "lat": 50.733282142,
+                    "lon": 7.099426898
+                },
+                "area": 7.957235500084242e-8,
+                "area_unit": "m^2"
+            },
+            {
+                "distance": 351.63224777,
+                "unit": "m",
+                "location": {
+                    "lat": 50.732520177,
+                    "lon": 7.104346433
+                },
+                "other_tags": {
+                    "wikidata": "Q1623077",
+                    "wikipedia": "de:Hofgarten (Bonn)"
+                },
+                "name": "Hofgarten",
+                "area": 0.000008138399774996273,
+                "area_unit": "m^2"
+            },
+            {
+                "distance": 389.92673043,
+                "unit": "m",
+                "location": {
+                    "lat": 50.731882817,
+                    "lon": 7.10075696
+                },
+                "name": "Kaiserplatz",
+                "area": 7.582741900024493e-7,
+                "area_unit": "m^2"
+            },
+            {
+                "distance": 403.21514104,
+                "unit": "m",
+                "location": {
+                    "lat": 50.736625178,
+                    "lon": 7.105190135
+                },
+                "area": 3.017663900002113e-7,
+                "area_unit": "m^2"
+            },
+            {
+                "distance": 424.49691893,
+                "unit": "m",
+                "location": {
+                    "lat": 50.733996389,
+                    "lon": 7.105210143
+                },
+                "area": 5.288144800007769e-7,
+                "area_unit": "m^2"
+            },
+            {
+                "distance": 448.37517467,
+                "unit": "m",
+                "location": {
+                    "lat": 50.739413659,
+                    "lon": 7.102781755
+                },
+                "area": 2.2505258500187155e-7,
+                "area_unit": "m^2"
+            },
+            {
+                "distance": 499.91664152,
+                "unit": "m",
+                "location": {
+                    "lat": 50.735282578,
+                    "lon": 7.106791659
+                },
+                "area": 5.848837499964851e-7,
+                "area_unit": "m^2"
+            }
+        ],
+        "parking": [
+            {
+                "distance": 189.33577618,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7342885,
+                    "lon": 7.097886
+                },
+                "other_tags": {
+                    "amenity": "parking",
+                    "capacity": "99",
+                    "fee": "yes",
+                    "motorcar:conditional": "destination @ (07:00-01:00)",
+                    "motor_vehicle": "no",
+                    "parking": "underground"
+                },
+                "name": "M\\u00fclheimer Platz"
+            },
+            {
+                "distance": 194.84734949,
+                "unit": "m",
+                "location": {
+                    "lat": 50.734071,
+                    "lon": 7.0989073
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:postcode": "53111",
+                    "addr:street": "Budapester Stra\\u00dfe",
+                    "amenity": "parking",
+                    "capacity": "319",
+                    "fee": "yes",
+                    "layer": "-1",
+                    "level": "-1",
+                    "motorcar:conditional": "destination @ (07:00-01:00)",
+                    "motor_vehicle": "no",
+                    "opening_hours": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:30; Su,PH 09:00-01:00",
+                    "operator": "Bonner City Parkraum GmbH",
+                    "parking": "underground",
+                    "toilets:wheelchair": "no",
+                    "website": "http://bcp-bonn.de/muensterplatzgarage/",
+                    "wheelchair": "yes"
+                },
+                "name": "M\\u00fcnsterplatzgarage"
+            },
+            {
+                "distance": 202.58779568,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7369466,
+                    "lon": 7.0968013
+                },
+                "other_tags": {
+                    "access": "yes",
+                    "amenity": "parking",
+                    "capacity": "822",
+                    "fee": "yes",
+                    "layer": "-1",
+                    "lit": "yes",
+                    "opening_hours": "Mo-Th 07:00-01:00, Fr-Sa 07:00-02:30, Su 09:00-01:00",
+                    "operator": "Bonner City-Parkraum GmbH;Am Hof 26a;53113 Bonn",
+                    "parking": "underground",
+                    "website": "http://bcp-bonn.de/friedensplatzgarage/",
+                    "wheelchair": "limited"
+                },
+                "name": "Friedensplatzgarage"
+            },
+            {
+                "distance": 219.95669252,
+                "unit": "m",
+                "location": {
+                    "lat": 50.737795,
+                    "lon": 7.0992049
+                },
+                "other_tags": {
+                    "access": "yes",
+                    "addr:city": "Bonn",
+                    "addr:housenumber": "12",
+                    "addr:postcode": "53111",
+                    "addr:street": "Oxfordstra\\u00dfe",
+                    "amenity": "parking",
+                    "capacity": "157",
+                    "parking": "multi-storey",
+                    "wheelchair": "yes"
+                },
+                "name": "Oxford-Garage"
+            },
+            {
+                "distance": 241.79806547,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7371948,
+                    "lon": 7.096403
+                },
+                "other_tags": {
+                    "amenity": "parking",
+                    "capacity": "822",
+                    "fee": "yes",
+                    "layer": "-1",
+                    "lit": "yes",
+                    "opening_hours": "Mo-Th 07:00-01:00, Fr-Sa 07:00-02:30, Su 09:00-01:00",
+                    "operator": "Bonner City-Parkraum GmbH; Am Hof 26a; 53113 Bonn",
+                    "parking": "underground",
+                    "toilets:wheelchair": "no",
+                    "wheelchair": "yes"
+                },
+                "name": "Friedensplatzgarage"
+            },
+            {
+                "distance": 250.34952996,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7373839,
+                    "lon": 7.0965059
+                },
+                "other_tags": {
+                    "access": "yes",
+                    "amenity": "parking",
+                    "capacity": "822",
+                    "fee": "yes",
+                    "layer": "-1",
+                    "lit": "yes",
+                    "opening_hours": "Mo-Th 07:00-01:00, Fr-Sa 07:00-02:30, Su 09:00-01:00",
+                    "operator": "Bonner City-Parkraum GmbH; Am Hof 26a; 53113 Bonn",
+                    "parking": "underground",
+                    "wheelchair": "yes"
+                },
+                "name": "Friedensplatzgarage"
+            },
+            {
+                "distance": 318.16346407,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7347384,
+                    "lon": 7.1032281
+                },
+                "other_tags": {
+                    "access": "yes",
+                    "amenity": "parking",
+                    "capacity": "325",
+                    "fee": "yes",
+                    "layer": "-1",
+                    "lit": "yes",
+                    "operator": "Bonner City-Parkraum GmbH;Am Hof 26a;53113 Bonn",
+                    "parking": "underground",
+                    "wheelchair": "yes",
+                    "wheelchair:description": "hier endet der ::: Aufzug aus Denkmal- und Brandschutzgr\\u00fcnden im 1. Tiefgeschoss"
+                },
+                "name": "Markt-Garage"
+            },
+            {
+                "distance": 410.31639383,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7336649,
+                    "lon": 7.1037728
+                },
+                "other_tags": {
+                    "amenity": "parking",
+                    "capacity": "472",
+                    "fee": "yes",
+                    "layer": "-1",
+                    "lit": "yes",
+                    "operator": "Parkhausbetriebe J. & R. Kalscheurer;Regina-Pacis-Weg 3;53113 Bonn",
+                    "parking": "underground",
+                    "wheelchair": "no"
+                },
+                "name": "Uni-Garage"
+            },
+            {
+                "distance": 476.23743551,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7394192,
+                    "lon": 7.1027088
+                },
+                "other_tags": {
+                    "access": "permissive",
+                    "amenity": "parking",
+                    "fee": "yes",
+                    "layer": "-1",
+                    "parking": "underground"
+                },
+                "name": "Beethoven Parkhaus"
+            }
+        ],
+        "schools": [
+            {
+                "distance": 220.36006149,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7357768,
+                    "lon": 7.0959353
+                },
+                "other_tags": {
+                    "amenity": "school",
+                    "operator": "Stadt Bonn"
+                },
+                "name": "Pestalozzi-Pavillon"
+            },
+            {
+                "distance": 482.53255842,
+                "unit": "m",
+                "location": {
+                    "lat": 50.734485,
+                    "lon": 7.0925527
+                },
+                "other_tags": {
+                    "amenity": "school"
+                },
+                "name": "Music Academy Bonn - Rock & Jazz School"
+            }
+        ],
+        "kindergartens": [
+            {
+                "distance": 354.21628542,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7367446,
+                    "lon": 7.0942546
+                },
+                "other_tags": {
+                    "amenity": "kindergarten",
+                    "level": "2",
+                    "official_name": "St\\u00e4dt. Kiga Stadthaus Berliner Platz",
+                    "opening_hours": "Mo-Th 07:30-17:00; Fr 07:30-15:00",
+                    "wheelchair": "yes"
+                },
+                "name": "Stadthaus-Kita"
+            },
+            {
+                "distance": 411.7887224,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7390143,
+                    "lon": 7.0961083
+                },
+                "other_tags": {
+                    "amenity": "kindergarten",
+                    "wheelchair": "limited",
+                    "wheelchair:description": "Stufe ~7cm"
+                },
+                "name": "Die kleinen Strolche e.V."
+            }
+        ],
+        "hospitals": [],
+        "doctors": [
+            {
+                "distance": 75.30231534,
+                "unit": "m",
+                "location": {
+                    "lat": 50.735145,
+                    "lon": 7.0989758
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "2",
+                    "addr:postcode": "53111",
+                    "addr:street": "Vivatsgasse",
+                    "amenity": "doctors",
+                    "healthcare": "doctor",
+                    "website": "https://augenarzt-bonn-city.de/"
+                },
+                "name": "MVZ Dardenne Zweigpraxis Bonn-City"
+            },
+            {
+                "distance": 218.68278285,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7358809,
+                    "lon": 7.1021522
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "1",
+                    "addr:postcode": "53111",
+                    "addr:street": "Wenzelgasse",
+                    "amenity": "doctors",
+                    "healthcare": "doctor",
+                    "website": "https://www.dr-gruess.de/g_index.php"
+                },
+                "name": "Dr. Gr\\u00fc\\u00df"
+            },
+            {
+                "distance": 239.78043786,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7376295,
+                    "lon": 7.1009016
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "2",
+                    "addr:postcode": "53111",
+                    "addr:street": "Oxfordstra\\u00dfe",
+                    "amenity": "doctors",
+                    "healthcare": "doctor",
+                    "healthcare:speciality": "internal;tropical",
+                    "opening_hours": "Mo 08:30-12:00,16:00-19:00; Tu,Th 08:30-12:00,16:00-18:00; We,Fr 08:30-12:00",
+                    "phone": "+49 228 650626",
+                    "wheelchair": "yes"
+                },
+                "name": "Dr. med. Heidrun H\\u00fcbner"
+            },
+            {
+                "distance": 243.67135083,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7336539,
+                    "lon": 7.0985429
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "6",
+                    "addr:postcode": "53111",
+                    "addr:street": "In der S\\u00fcrst",
+                    "amenity": "doctors",
+                    "healthcare": "doctor",
+                    "website": "https://augenarztpraxis-bonn.de/"
+                },
+                "name": "Dr.med. Gauch-Winkler"
+            },
+            {
+                "distance": 281.29953585,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7372128,
+                    "lon": 7.1023818
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "6",
+                    "addr:postcode": "53111",
+                    "addr:street": "Bertha-von-Suttner-Platz",
+                    "amenity": "doctors",
+                    "healthcare": "doctor",
+                    "website": "https://www.mvzpsyche.de/"
+                },
+                "name": "MVZ Psyche"
+            },
+            {
+                "distance": 286.25512954,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7333488,
+                    "lon": 7.0979255
+                },
+                "other_tags": {
+                    "amenity": "doctors",
+                    "healthcare": "doctor",
+                    "healthcare:speciality": "otolaryngology",
+                    "opening_hours": "Mo,Tu 08:30-12:30,14:00-17:00; We,Fr 08:30-12:30; Th 10:30-12:30,14:00-17:00",
+                    "toilets:wheelchair": "no",
+                    "website": "https://www.hno-praxis-reich.de/",
+                    "wheelchair": "yes"
+                },
+                "name": "Dr. Reich"
+            },
+            {
+                "distance": 290.24466085,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7334403,
+                    "lon": 7.0973703
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "20",
+                    "addr:postcode": "53111",
+                    "addr:street": "M\\u00fcnsterstra\\u00dfe",
+                    "amenity": "doctors",
+                    "email": "info@mcbonn.de",
+                    "fax": "+49 228 9081150",
+                    "healthcare": "doctor",
+                    "operator": "Prof. Dr. Dr. med. J\\u00fcrgen Ruhlmann",
+                    "phone": "+49 228 9081100",
+                    "website": "https://www.mcbonn.de/"
+                },
+                "name": "MVZ Medizin Center Bonn"
+            },
+            {
+                "distance": 297.22211092,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7335444,
+                    "lon": 7.0968498
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:housenumber": "18",
+                    "addr:postcode": "53111",
+                    "addr:street": "M\\u00fcnsterstra\\u00dfe",
+                    "amenity": "doctors",
+                    "email": "info@gastroenterologie-bonn.de",
+                    "healthcare": "doctor",
+                    "healthcare:speciality": "gastroenterology",
+                    "level": "6",
+                    "operator": "Dr. med. Schulte-Witte, Dr. med. Pla\\u00dfmann",
+                    "phone": "+49 228 631955",
+                    "website": "http://www.gastroenterologie-bonn.de"
+                },
+                "name": "Gastroenterologie Bonn"
+            },
+            {
+                "distance": 297.64193244,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7346026,
+                    "lon": 7.0953016
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "49",
+                    "addr:postcode": "53111",
+                    "addr:street": "Thomas-Mann-Stra\\u00dfe",
+                    "amenity": "doctors",
+                    "description:de": "Fach\\u00e4rztin f\\u00fcr Frauenheilkunde und Geburtshilfe",
+                    "healthcare": "doctor",
+                    "healthcare:speciality": "gynaecology",
+                    "opening_hours": "\\\"by appointment\\\"",
+                    "phone": "+49 228 97668855",
+                    "website": "http://www.ameziane-frauenaerztin.de",
+                    "wheelchair": "no"
+                },
+                "name": "Dr. Tonja Ameziane"
+            },
+            {
+                "distance": 333.570129,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7329321,
+                    "lon": 7.1003278
+                },
+                "other_tags": {
+                    "addr:housenumber": "2 a",
+                    "addr:street": "Martinsplatz",
+                    "amenity": "doctors",
+                    "healthcare": "doctor",
+                    "healthcare:speciality": "radiology",
+                    "level": "1",
+                    "opening_hours": "Mo, Tu, Th, Fr 08:00-18:00, We 08:00-13:00",
+                    "wheelchair": "yes"
+                },
+                "name": "Gemeinschaftspraxis f\\u00fcr Radiologie und Nuklearmedizin Standort Martinsplatz 2 a"
+            },
+            {
+                "distance": 335.8903369,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7329084,
+                    "lon": 7.1003161
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:housenumber": "2 a",
+                    "addr:street": "Martinsplatz",
+                    "amenity": "doctors",
+                    "healthcare": "doctor",
+                    "healthcare:speciality": "gynaecology",
+                    "level": "3",
+                    "opening_hours": "Mo-Tu 08:00-17:30, We, Fr 08:00-14:00; Th 08:00-17:30 open \\\"Privatsprechstunde\\\""
+                },
+                "name": "Dr. (HR) Tatjana Reihs"
+            },
+            {
+                "distance": 337.43274258,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7328924,
+                    "lon": 7.1003067
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:housenumber": "2 a",
+                    "addr:street": "Martinsplatz",
+                    "amenity": "doctors",
+                    "healthcare": "doctor",
+                    "healthcare:speciality": "dermatology",
+                    "level": "4",
+                    "opening_hours": "Mo,We-Fr 09:00-12:00, Tu 08:00-14:00, Mo 15:00-17:00, Th 15:00-19:00"
+                },
+                "name": "Dr. med. Solveig St\\u00f6ckel"
+            },
+            {
+                "distance": 338.59125663,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7328805,
+                    "lon": 7.1003002
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:housenumber": "2 a",
+                    "addr:street": "Martinsplatz",
+                    "amenity": "doctors",
+                    "healthcare": "doctor",
+                    "healthcare:speciality": "human genetics",
+                    "level": "5"
+                },
+                "name": "Prof. Dr. med. Tariverdian"
+            },
+            {
+                "distance": 352.28713877,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7338401,
+                    "lon": 7.0951614
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "57",
+                    "addr:postcode": "53111",
+                    "addr:street": "Thomas-Mann-Stra\\u00dfe",
+                    "amenity": "doctors",
+                    "description": "Facharzt f\\u00fcr Allgemeinmedizin / Psychotherapie",
+                    "healthcare": "doctor",
+                    "opening_hours": "Mo-Fr 08:00-12:00; Mo-Tu, Th 15:00-17:00",
+                    "phone": "+49 228 635750",
+                    "website": "https://www.praxis-vonhansemann.de/"
+                },
+                "name": "Nicola von Hansemann"
+            },
+            {
+                "distance": 352.92834589,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7371252,
+                    "lon": 7.1036127
+                },
+                "other_tags": {
+                    "amenity": "doctors",
+                    "healthcare": "doctor",
+                    "opening_hours": "Mo-Fr 09:00-12:00, Mo,Tu,Th 15:00-18:00",
+                    "website": "https://www.bosselmann-siepe.de/",
+                    "wheelchair": "no"
+                },
+                "name": "Plastische & \\u00c4sthetische Chirurgie"
+            },
+            {
+                "distance": 366.60533396,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7368394,
+                    "lon": 7.1039944
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "6",
+                    "addr:postcode": "53111",
+                    "addr:street": "Belderberg",
+                    "amenity": "doctors",
+                    "healthcare": "doctor",
+                    "phone": "+49 228 650818",
+                    "website": "http://www.kardiologie-kuehr.de/"
+                },
+                "name": "Dr. K\\u00fchr"
+            },
+            {
+                "distance": 376.88752277,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7338574,
+                    "lon": 7.0947044
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "58",
+                    "addr:postcode": "53111",
+                    "addr:street": "Thomas-Mann-Stra\\u00dfe",
+                    "amenity": "doctors",
+                    "email": "info@osteopathie-bonn.net",
+                    "fax": "+4932121355303",
+                    "healthcare": "doctor",
+                    "healthcare:speciality": "osteopathy",
+                    "opening_hours": "\\\"Termine nach Vereinbarung\\\"",
+                    "phone": "+492284330978",
+                    "website": "https://www.osteopathie-bonn.net/"
+                },
+                "name": "Praxis f\\u00fcr Osteopathie & Naturheilkunde"
+            },
+            {
+                "distance": 379.4897886,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7324089,
+                    "lon": 7.0989905
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "14",
+                    "addr:postcode": "53111",
+                    "addr:street": "Maximilianstra\\u00dfe",
+                    "amenity": "doctors",
+                    "healthcare": "doctor"
+                },
+                "name": "Dres. Eich/Beverungen"
+            },
+            {
+                "distance": 400.9643494,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7323041,
+                    "lon": 7.1003068
+                },
+                "other_tags": {
+                    "addr:housenumber": "18",
+                    "addr:street": "Kaiserplatz",
+                    "amenity": "doctors",
+                    "healthcare": "doctor",
+                    "healthcare:speciality": "radiology",
+                    "level": "1",
+                    "opening_hours": "Mo, Tu, Th, Fr 08:00-18:00, We 08:00-13:00",
+                    "phone": "+49 228 911500",
+                    "website": "http://www.rad-nuk-bn.de",
+                    "wheelchair": "yes"
+                },
+                "name": "Gemeinschaftspraxis f\\u00fcr Radiologie und Nuklearmedizin Standort Kaiserplatz 18"
+            },
+            {
+                "distance": 403.33648804,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7322279,
+                    "lon": 7.0998322
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "8",
+                    "addr:postcode": "53111",
+                    "addr:street": "Maximilianstra\\u00dfe",
+                    "amenity": "doctors",
+                    "healthcare": "physiotherapist",
+                    "opening_hours": "Mo-Th 08:00-20:00; Fr 08:00-16:00",
+                    "phone": "+49 228 633794",
+                    "website": "https://www.cityphysiobonn.de/"
+                },
+                "name": "City Physio"
+            },
+            {
+                "distance": 409.43237192,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7322976,
+                    "lon": 7.1007376
+                },
+                "other_tags": {
+                    "amenity": "doctors",
+                    "healthcare": "doctor",
+                    "healthcare:speciality": "gynaecology",
+                    "opening_hours": "Mo-Th 08:00-13:00,14:00-18:00; We off; Fr 08:00-13:00",
+                    "phone": "+49 228 650636",
+                    "website": "http://www.frauenaerztin-wallenberg.de"
+                },
+                "name": "Laura Wallenberg"
+            },
+            {
+                "distance": 411.44980729,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7322833,
+                    "lon": 7.1007617
+                },
+                "other_tags": {
+                    "addr:housenumber": "16",
+                    "addr:street": "Kaiserplatz",
+                    "amenity": "doctors",
+                    "healthcare": "doctor",
+                    "healthcare:speciality": "otolaryngology;plastic_surgery",
+                    "level": "2",
+                    "opening_hours": "Mo 08:00-11:00, 15:00-17:00, Tu, Th, Fr 08:00-11:00, Tu, Th 15:00-17:00, We open \\\"OP-Tag\\\"",
+                    "phone": "+49 228 636565",
+                    "website": "http://www.bonn-hno.de"
+                },
+                "name": "Prof. Dr. med. Eberhard Walther"
+            },
+            {
+                "distance": 432.063009,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7368171,
+                    "lon": 7.1049712
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "7",
+                    "addr:postcode": "53111",
+                    "addr:street": "Kapuzinerstra\\u00dfe",
+                    "amenity": "doctors",
+                    "healthcare": "doctor",
+                    "website": "https://www.rivas-mkg.de/"
+                },
+                "name": "Lisardo A. Rivas"
+            },
+            {
+                "distance": 455.25326874,
+                "unit": "m",
+                "location": {
+                    "lat": 50.736434,
+                    "lon": 7.1054318
+                },
+                "other_tags": {
+                    "addr:city": "Bonn",
+                    "addr:country": "DE",
+                    "addr:housenumber": "8",
+                    "addr:postcode": "53111",
+                    "addr:street": "Kapuzinerstra\\u00dfe",
+                    "amenity": "doctors",
+                    "healthcare": "doctor"
+                },
+                "name": "J. H\\u00fcser"
+            }
+        ],
+        "railway_stations": [
+            {
+                "distance": 450.16655174,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7320436,
+                    "lon": 7.0967647
+                },
+                "other_tags": {
+                    "network": "VRS",
+                    "official_name": "Bonn Hbf",
+                    "operator": "DB Netz AG",
+                    "public_transport": "station",
+                    "railway": "station",
+                    "railway:ref": "KB",
+                    "railway:station_category": "2",
+                    "ref:ibnr": "8000044",
+                    "toilets:wheelchair": "no",
+                    "uic_ref": "8000044",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "limited",
+                    "wikidata": "Q55423",
+                    "wikipedia": "de:Bonn Hauptbahnhof"
+                },
+                "name": "Bonn Hauptbahnhof"
+            }
+        ],
+        "tram_stations": [
+            {
+                "distance": 243.2376332,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7363817,
+                    "lon": 7.0957261
+                },
+                "other_tags": {
+                    "operator": "SWB",
+                    "railway": "tram_stop",
+                    "ref_name": "Stadthaus, Bonn",
+                    "tram": "yes",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Stadthaus",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61114",
+                    "wheelchair": "yes"
+                },
+                "name": "Stadthaus"
+            },
+            {
+                "distance": 269.07170656,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7366959,
+                    "lon": 7.0955032
+                },
+                "other_tags": {
+                    "light_rail": "yes",
+                    "official_name:DB": "Bonn Stadthaus",
+                    "operator": "SWB",
+                    "railway": "tram_stop",
+                    "railway:ref:DB": "KB H",
+                    "ref_name": "Stadthaus, Bonn",
+                    "toilets:wheelchair": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61114",
+                    "wheelchair": "yes"
+                },
+                "name": "Stadthaus"
+            },
+            {
+                "distance": 307.2658082,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7374822,
+                    "lon": 7.1025322
+                },
+                "other_tags": {
+                    "railway": "tram_stop",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bertha-von-Suttner-Platz/Beethovenhaus",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61115",
+                    "wheelchair": "yes"
+                },
+                "name": "Bertha-von-Suttner-Platz / Beethovenhaus"
+            },
+            {
+                "distance": 384.59570031,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7330073,
+                    "lon": 7.0958883
+                },
+                "other_tags": {
+                    "light_rail": "yes",
+                    "local_ref": "1",
+                    "official_name:DB": "Bonn Hbf (Tief)",
+                    "operator": "SWB",
+                    "railway": "tram_stop",
+                    "railway:ref:DB": "KB T",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "yes"
+                },
+                "name": "Bonn Hauptbahnhof"
+            },
+            {
+                "distance": 416.78410108,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7321134,
+                    "lon": 7.0981956
+                },
+                "other_tags": {
+                    "local_ref": "H",
+                    "public_transport": "stop_position",
+                    "railway": "tram_stop",
+                    "tram": "yes",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "no"
+                },
+                "name": "Hauptbahnhof"
+            },
+            {
+                "distance": 422.49267577,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7320711,
+                    "lon": 7.0980976
+                },
+                "other_tags": {
+                    "tram": "yes",
+                    "VRS:ref": "61101",
+                    "railway": "tram_stop",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "local_ref": "G",
+                    "wheelchair": "limited",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:ortsteil": "Innenstadt",
+                    "public_transport": "stop_position"
+                },
+                "name": "Hauptbahnhof"
+            },
+            {
+                "distance": 429.42706886,
+                "unit": "m",
+                "location": {
+                    "lat": 50.733058,
+                    "lon": 7.1033055
+                },
+                "other_tags": {
+                    "layer": "-2",
+                    "level": "-2",
+                    "public_transport": "station",
+                    "railway": "tram_stop",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Universit\\u00e4t/Markt",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61110",
+                    "wheelchair": "yes",
+                    "wikidata": "Q7896807"
+                },
+                "name": "Universit\\u00e4t / Markt"
+            },
+            {
+                "distance": 479.77667536,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7401323,
+                    "lon": 7.0989464
+                },
+                "other_tags": {
+                    "tram": "yes",
+                    "VRS:ref": "61124",
+                    "railway": "tram_stop",
+                    "wheelchair": "yes",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:ortsteil": "Innenstadt",
+                    "public_transport": "stop_position"
+                },
+                "name": "Wilhelmsplatz"
+            },
+            {
+                "distance": 480.61231177,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7401393,
+                    "lon": 7.0989043
+                },
+                "other_tags": {
+                    "tram": "yes",
+                    "VRS:ref": "61124",
+                    "railway": "tram_stop",
+                    "wheelchair": "yes",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:ortsteil": "Innenstadt",
+                    "public_transport": "stop_position"
+                },
+                "name": "Wilhelmsplatz"
+            }
+        ],
+        "bus_stations": [
+            {
+                "distance": 108.52135305,
+                "unit": "m",
+                "location": {
+                    "lat": 50.736107,
+                    "lon": 7.0975868
+                },
+                "other_tags": {
+                    "bench": "no",
+                    "bus": "yes",
+                    "local_ref": "A4",
+                    "public_transport": "platform",
+                    "ref_name": "Friedensplatz, Bonn",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "toilets:wheelchair": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Friedensplatz",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61197",
+                    "wheelchair": "yes"
+                },
+                "name": "Friedensplatz"
+            },
+            {
+                "distance": 112.38056211,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7362418,
+                    "lon": 7.0976095
+                },
+                "other_tags": {
+                    "bench": "no",
+                    "bus": "yes",
+                    "local_ref": "A3",
+                    "public_transport": "platform",
+                    "ref_name": "Friedensplatz, Bonn",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "toilets:wheelchair": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Friedensplatz",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61197",
+                    "wheelchair": "yes"
+                },
+                "name": "Friedensplatz"
+            },
+            {
+                "distance": 117.18307138,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7363535,
+                    "lon": 7.0976247
+                },
+                "other_tags": {
+                    "bench": "no",
+                    "bus": "yes",
+                    "local_ref": "A2",
+                    "public_transport": "platform",
+                    "ref_name": "Friedensplatz, Bonn",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "toilets:wheelchair": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Friedensplatz",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61197",
+                    "wheelchair": "yes"
+                },
+                "name": "Friedensplatz"
+            },
+            {
+                "distance": 126.38696078,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7365139,
+                    "lon": 7.0976384
+                },
+                "other_tags": {
+                    "bench": "no",
+                    "bus": "yes",
+                    "local_ref": "A1",
+                    "public_transport": "platform",
+                    "ref_name": "Friedensplatz, Bonn",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "toilets:wheelchair": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Friedensplatz",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61197",
+                    "wheelchair": "yes"
+                },
+                "name": "Friedensplatz"
+            },
+            {
+                "distance": 269.66766027,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7376255,
+                    "lon": 7.101605
+                },
+                "other_tags": {
+                    "bus": "yes",
+                    "local_ref": "C",
+                    "public_transport": "platform",
+                    "ref_name": "Bertha Suttner Platz, Bonn",
+                    "shelter": "yes",
+                    "tactile_paving": "yes",
+                    "toilets:wheelchair": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61115",
+                    "wheelchair": "yes"
+                },
+                "name": "Bertha-von-Suttner-Platz/Beethovenhaus"
+            },
+            {
+                "distance": 277.57415636,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7347057,
+                    "lon": 7.102574
+                },
+                "other_tags": {
+                    "bus": "yes",
+                    "operator": "SWB",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Markt",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61140",
+                    "wheelchair": "limited"
+                },
+                "name": "Markt"
+            },
+            {
+                "distance": 279.73687752,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7373329,
+                    "lon": 7.1022212
+                },
+                "other_tags": {
+                    "bus": "yes",
+                    "local_ref": "D",
+                    "operator": "SWB",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "yes",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61115",
+                    "wheelchair": "yes"
+                },
+                "name": "Bertha-von-Suttner-Platz/Beethovenhaus"
+            },
+            {
+                "distance": 291.87472797,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7368103,
+                    "lon": 7.0952273
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "covered": "yes",
+                    "local_ref": "E",
+                    "operator": "SWB Bus und Bahn",
+                    "public_transport": "platform",
+                    "ref_name": "Stadthaus, Bonn",
+                    "shelter": "yes",
+                    "tactile_paving": "yes",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61114",
+                    "wheelchair": "no"
+                },
+                "name": "Stadthaus"
+            },
+            {
+                "distance": 292.15287972,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7360273,
+                    "lon": 7.0949305
+                },
+                "other_tags": {
+                    "bus": "yes",
+                    "local_ref": "F",
+                    "operator": "SWB Bus und Bahn",
+                    "public_transport": "platform",
+                    "ref_name": "Stadthaus, Bonn",
+                    "shelter": "no",
+                    "tactile_paving": "yes",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61114",
+                    "wheelchair": "yes"
+                },
+                "name": "Stadthaus"
+            },
+            {
+                "distance": 366.41484376,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7338285,
+                    "lon": 7.0949219
+                },
+                "other_tags": {
+                    "bus": "yes",
+                    "level": "0",
+                    "public_transport": "platform",
+                    "ref_name": "Thomas-Mann-Str., Bonn",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Thomas-Mann-Stra\\u00dfe/Hbf",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61122",
+                    "wheelchair": "yes"
+                },
+                "name": "Thomas-Mann-Stra\\u00dfe"
+            },
+            {
+                "distance": 376.87556043,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7367464,
+                    "lon": 7.1041911
+                },
+                "other_tags": {
+                    "bus": "yes",
+                    "local_ref": "F",
+                    "operator": "SWB",
+                    "public_transport": "platform",
+                    "ref_name": "Bertha Suttner Platz, Bonn",
+                    "shelter": "no",
+                    "tactile_paving": "yes",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61116",
+                    "wheelchair": "yes"
+                },
+                "name": "Br\\u00fcdergasse/Bertha-von-Suttner-Platz"
+            },
+            {
+                "distance": 385.19841062,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7379856,
+                    "lon": 7.1033137
+                },
+                "other_tags": {
+                    "bus": "yes",
+                    "departures_board": "realtime",
+                    "local_ref": "G",
+                    "operator": "SWB",
+                    "public_transport": "platform",
+                    "ref_name": "Bertha Suttner Platz, Bonn",
+                    "shelter": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Sandkaule/Bertha-von-Suttner-Platz",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61193",
+                    "wheelchair": "yes"
+                },
+                "name": "Sandkaule / Bertha-von-Suttner-Platz"
+            },
+            {
+                "distance": 396.37793972,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7335195,
+                    "lon": 7.0947684
+                },
+                "other_tags": {
+                    "bus": "yes",
+                    "public_transport": "platform",
+                    "ref_name": "Thomas-Mann-Str., Bonn",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Thomas-Mann-Stra\\u00dfe/Hbf",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61122",
+                    "wheelchair": "yes"
+                },
+                "name": "Thomas-Mann-Stra\\u00dfe"
+            },
+            {
+                "distance": 403.01200346,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7321972,
+                    "lon": 7.0990619
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "level": "0",
+                    "local_ref": "A1",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "yes"
+                },
+                "name": "Bonn Hauptbahnhof A1"
+            },
+            {
+                "distance": 408.27003783,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7391042,
+                    "lon": 7.1016374
+                },
+                "other_tags": {
+                    "bus": "yes",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "yes",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61194",
+                    "wheelchair": "yes"
+                },
+                "name": "Stiftsplatz"
+            },
+            {
+                "distance": 411.46778676,
+                "unit": "m",
+                "location": {
+                    "lat": 50.732136,
+                    "lon": 7.0985349
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "local_ref": "F2",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "yes"
+                },
+                "name": "Bonn Hauptbahnhof F2"
+            },
+            {
+                "distance": 417.09061554,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7320892,
+                    "lon": 7.0996431
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "level": "0",
+                    "local_ref": "A2",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "yes"
+                },
+                "name": "Bonn Hauptbahnhof A2"
+            },
+            {
+                "distance": 419.43302131,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7320517,
+                    "lon": 7.099255
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "level": "0",
+                    "local_ref": "B1",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "yes"
+                },
+                "name": "Bonn Hauptbahnhof B1"
+            },
+            {
+                "distance": 424.1516178,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7320566,
+                    "lon": 7.0980917
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "local_ref": "G",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "yes"
+                },
+                "name": "Bonn Hauptbahnhof G"
+            },
+            {
+                "distance": 426.81610399,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7319839,
+                    "lon": 7.0991702
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "level": "0",
+                    "local_ref": "C1",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "yes"
+                },
+                "name": "Bonn Hauptbahnhof C1"
+            },
+            {
+                "distance": 427.95361476,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7319734,
+                    "lon": 7.0989675
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "description": "nur Ausstieg",
+                    "description:en": "exit only",
+                    "local_ref": "D1",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "yes"
+                },
+                "name": "Bonn Hauptbahnhof D1 Ausstieg"
+            },
+            {
+                "distance": 428.80139409,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7319816,
+                    "lon": 7.0996128
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "level": "0",
+                    "local_ref": "B2",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "limited"
+                },
+                "name": "Bonn Hauptbahnhof B2"
+            },
+            {
+                "distance": 431.37530724,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7319942,
+                    "lon": 7.100053
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "level": "0",
+                    "local_ref": "A3",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "limited"
+                },
+                "name": "Bonn Hauptbahnhof A3"
+            },
+            {
+                "distance": 431.73581445,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7319451,
+                    "lon": 7.099399
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "level": "0",
+                    "local_ref": "C2",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "yes"
+                },
+                "name": "Bonn Hauptbahnhof C2"
+            },
+            {
+                "distance": 433.69416178,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7319215,
+                    "lon": 7.0991029
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "level": "0",
+                    "local_ref": "D1",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "yes"
+                },
+                "name": "Bonn Hauptbahnhof D1"
+            },
+            {
+                "distance": 437.13004026,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7318914,
+                    "lon": 7.0989235
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "level": "0",
+                    "local_ref": "E",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "yes"
+                },
+                "name": "Bonn Hauptbahnhof"
+            },
+            {
+                "distance": 438.203316,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7318965,
+                    "lon": 7.0996087
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "level": "0",
+                    "local_ref": "C3",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "yes"
+                },
+                "name": "Bonn Hauptbahnhof C3"
+            },
+            {
+                "distance": 442.32171524,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7318893,
+                    "lon": 7.1000008
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "local_ref": "B3",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "yes"
+                },
+                "name": "Bonn Hauptbahnhof B3"
+            },
+            {
+                "distance": 444.58028932,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7320914,
+                    "lon": 7.1013227
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "description": "Ausstiegs- und Pausenhaltestelle der RSVG-Busse",
+                    "public_transport": "platform",
+                    "shelter": "no",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101"
+                },
+                "name": "Bonn Hauptbahnhof"
+            },
+            {
+                "distance": 444.60466203,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7318516,
+                    "lon": 7.099804
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "level": "0",
+                    "local_ref": "C4",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "yes"
+                },
+                "name": "Bonn Hauptbahnhof C4"
+            },
+            {
+                "distance": 447.29870772,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7318067,
+                    "lon": 7.0994456
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "level": "0",
+                    "local_ref": "D2",
+                    "public_transport": "platform",
+                    "shelter": "yes",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101",
+                    "wheelchair": "limited"
+                },
+                "name": "Bonn Hauptbahnhof D2"
+            },
+            {
+                "distance": 452.9745631,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7319751,
+                    "lon": 7.1011685
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "description": "Ausstiegs- und Pausenhaltestelle der RSVG-Busse",
+                    "public_transport": "platform",
+                    "shelter": "no",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101"
+                },
+                "name": "Bonn Hauptbahnhof"
+            },
+            {
+                "distance": 458.10848342,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7399341,
+                    "lon": 7.0993412
+                },
+                "other_tags": {
+                    "bench": "no",
+                    "bus": "yes",
+                    "public_transport": "platform",
+                    "shelter": "no",
+                    "tactile_paving": "no",
+                    "VRS:ref": "61124",
+                    "wheelchair": "no"
+                },
+                "name": "Wilhelmsplatz"
+            },
+            {
+                "distance": 461.26558671,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7318682,
+                    "lon": 7.1010344
+                },
+                "other_tags": {
+                    "bench": "yes",
+                    "bus": "yes",
+                    "description": "Ausstiegs- und Pausenhaltestelle der RSVG-Busse",
+                    "public_transport": "platform",
+                    "shelter": "no",
+                    "tactile_paving": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:name": "Bonn Hauptbahnhof",
+                    "VRS:ortsteil": "Innenstadt",
+                    "VRS:ref": "61101"
+                },
+                "name": "Bonn Hauptbahnhof"
+            },
+            {
+                "distance": 485.55750244,
+                "unit": "m",
+                "location": {
+                    "lat": 50.7367331,
+                    "lon": 7.1057819
+                },
+                "other_tags": {
+                    "bus": "yes",
+                    "bench": "yes",
+                    "VRS:ref": "61195",
+                    "covered": "yes",
+                    "shelter": "yes",
+                    "wheelchair": "no",
+                    "VRS:gemeinde": "BONN",
+                    "VRS:ortsteil": "Innenstadt",
+                    "public_transport": "platform"
+                },
+                "name": "Opernhaus"
+            }
+        ]
+    }
+}
