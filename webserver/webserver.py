@@ -17,11 +17,6 @@ api = Api(app, version='1.0', title='OSM Service API',
 
 ns = api.namespace('relative', description='Operations for getting data relative to a given point')
 
-relative_arguments = reqparse.RequestParser()
-relative_arguments.add_argument('latitude', type=float, required=True)
-relative_arguments.add_argument('longitude', type=float, required=True)
-relative_arguments.add_argument('radius', type=int, required=True)
-
 
 @ns.route('/<float:latitude>,<float:longitude>/<int:radius>')
 class FullReport(Resource):
@@ -30,7 +25,6 @@ class FullReport(Resource):
                      'longitude': 'Specify the longitude associated with the point.',
                      'radius': 'Specify the radius (meters) covering the circular region of interest around the point '
                                '(coordinate) described by the latitude and longitude.'})
-    @api.expect(relative_arguments, validate=True)
     def get(self, latitude, longitude, radius):
         """Returns the full report: Landuse, Parking, Chemists, Convenience Stores, Supermarkets, Malls, Schools, Kindergartens, Hospitals, Doctors, Railway Stations, Tram Stations, Bus Stations within a radius around a point described by the given latitude and longitude."""
 
@@ -74,7 +68,6 @@ class MallReport(Resource):
                      'longitude': 'Specify the longitude associated with the point.',
                      'radius': 'Specify the radius (meters) covering the circular region of interest around the point '
                                '(coordinate) described by the latitude and longitude.'})
-    @api.expect(relative_arguments, validate=True)
     def get(self, latitude, longitude, radius):
         """Returns the Malls within a radius around a point described by the given latitude and longitude."""
         try:
@@ -91,7 +84,6 @@ class ChemistReport(Resource):
                      'longitude': 'Specify the longitude associated with the point.',
                      'radius': 'Specify the radius (meters) covering the circular region of interest around the point '
                                '(coordinate) described by the latitude and longitude.'})
-    @api.expect(relative_arguments, validate=True)
     def get(self, latitude, longitude, radius):
         """Returns the Chemists within a radius around a point described by the given latitude and longitude."""
         try:
@@ -108,7 +100,6 @@ class ConvenienceReport(Resource):
                      'longitude': 'Specify the longitude associated with the point.',
                      'radius': 'Specify the radius (meters) covering the circular region of interest around the point '
                                '(coordinate) described by the latitude and longitude.'})
-    @api.expect(relative_arguments, validate=True)
     def get(self, latitude, longitude, radius):
         """Returns the Convenience Stores within a radius around a point described by the given latitude and longitude."""
         try:
@@ -125,7 +116,6 @@ class SupermarketReport(Resource):
                      'longitude': 'Specify the longitude associated with the point.',
                      'radius': 'Specify the radius (meters) covering the circular region of interest around the point '
                                '(coordinate) described by the latitude and longitude.'})
-    @api.expect(relative_arguments, validate=True)
     def get(self, latitude, longitude, radius):
         """Returns the Supermarkets within a radius around a point described by the given latitude and longitude."""
         try:
@@ -142,7 +132,6 @@ class LanduseReport(Resource):
                      'longitude': 'Specify the longitude associated with the point.',
                      'radius': 'Specify the radius (meters) covering the circular region of interest around the point '
                                '(coordinate) described by the latitude and longitude.'})
-    @api.expect(relative_arguments, validate=True)
     def get(self, latitude, longitude, radius):
         """Returns the Landuse within a radius around a point described by the given latitude and longitude."""
         try:
@@ -159,7 +148,6 @@ class ParkingReport(Resource):
                      'longitude': 'Specify the longitude associated with the point.',
                      'radius': 'Specify the radius (meters) covering the circular region of interest around the point '
                                '(coordinate) described by the latitude and longitude.'})
-    @api.expect(relative_arguments, validate=True)
     def get(self, latitude, longitude, radius):
         """Returns car parks within a radius around a point described by the given latitude and longitude."""
         try:
@@ -176,7 +164,6 @@ class ParkReport(Resource):
                      'longitude': 'Specify the longitude associated with the point.',
                      'radius': 'Specify the radius (meters) covering the circular region of interest around the point '
                                '(coordinate) described by the latitude and longitude.'})
-    @api.expect(relative_arguments, validate=True)
     def get(self, latitude, longitude, radius):
         """Returns parks within a radius around a point described by the given latitude and longitude."""
         try:
@@ -193,7 +180,6 @@ class SchoolReport(Resource):
                      'longitude': 'Specify the longitude associated with the point.',
                      'radius': 'Specify the radius (meters) covering the circular region of interest around the point '
                                '(coordinate) described by the latitude and longitude.'})
-    @api.expect(relative_arguments, validate=True)
     def get(self, latitude, longitude, radius):
         """Returns the Schools within a radius around a point described by the given latitude and longitude."""
         try:
@@ -210,7 +196,6 @@ class KindergartenReport(Resource):
                      'longitude': 'Specify the longitude associated with the point.',
                      'radius': 'Specify the radius (meters) covering the circular region of interest around the point '
                                '(coordinate) described by the latitude and longitude.'})
-    @api.expect(relative_arguments, validate=True)
     def get(self, latitude, longitude, radius):
         """Returns the Kindergartens within a radius around a point described by the given latitude and longitude."""
         try:
@@ -227,7 +212,6 @@ class HospitalReport(Resource):
                      'longitude': 'Specify the longitude associated with the point.',
                      'radius': 'Specify the radius (meters) covering the circular region of interest around the point '
                                '(coordinate) described by the latitude and longitude.'})
-    @api.expect(relative_arguments, validate=True)
     def get(self, latitude, longitude, radius):
         """Returns the Hospitals within a radius around a point described by the given latitude and longitude."""
         try:
@@ -244,7 +228,6 @@ class DoctorReport(Resource):
                      'longitude': 'Specify the longitude associated with the point.',
                      'radius': 'Specify the radius (meters) covering the circular region of interest around the point '
                                '(coordinate) described by the latitude and longitude.'})
-    @api.expect(relative_arguments, validate=True)
     def get(self, latitude, longitude, radius):
         """Returns the Doctors within a radius around a point described by the given latitude and longitude."""
         try:
@@ -266,7 +249,6 @@ class RailwayStationReport(Resource):
                      'longitude': 'Specify the longitude associated with the point.',
                      'radius': 'Specify the radius (meters) covering the circular region of interest around the point '
                                '(coordinate) described by the latitude and longitude.'})
-    @api.expect(relative_arguments, validate=True)
     def get(self, latitude, longitude, radius):
         """Returns the Railway Stations within a radius around a point described by the given latitude and longitude."""
         try:
@@ -283,7 +265,6 @@ class TramStationReport(Resource):
                      'longitude': 'Specify the longitude associated with the point.',
                      'radius': 'Specify the radius (meters) covering the circular region of interest around the point '
                                '(coordinate) described by the latitude and longitude.'})
-    @api.expect(relative_arguments, validate=True)
     def get(self, latitude, longitude, radius):
         """Returns the Tram Stations within a radius around a point described by the given latitude and longitude."""
         try:
@@ -300,7 +281,6 @@ class BusStationReport(Resource):
                      'longitude': 'Specify the longitude associated with the point.',
                      'radius': 'Specify the radius (meters) covering the circular region of interest around the point '
                                '(coordinate) described by the latitude and longitude.'})
-    @api.expect(relative_arguments, validate=True)
     def get(self, latitude, longitude, radius):
         """Returns the Bus Stations within a radius around a point described by the given latitude and longitude."""
         try:
