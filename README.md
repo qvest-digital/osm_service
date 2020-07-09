@@ -2,6 +2,8 @@
 
 Der Open Street Map Service bietet eine REST-API an, welche interessante Datenpunkte aus dem Datenstand von [Open Street Map](https://www.openstreetmap.org/) (OSM) extrahiert und zu der weiteren Verarbeitung zurückgibt.
 
+![API Dokumentation](/screenshots/parks_und_drogerien_visualized.jpg)
+
 Die Daten werden in einem übergebenen Umkreis relativ zu einer gegebenen Koordinate zurückgegeben.
 
 Die folgenden Daten können extrahiert werden:
@@ -30,7 +32,6 @@ Die folgenden Daten können extrahiert werden:
 ## Datenbank
 Der Service benötigt eine Datenbank in der die Open Street Map Daten hinterlegt werden, um diese schnell extrahieren zu können.
 
-
 Es wurde sich für [PostgreSQL](https://www.postgresql.org/) entschieden, welches ein kostenloses Open-Source Datenbankmanagementsystem ist.
 Damit PostgreSQL die geografischen Daten von Open Street Map speichern und verbreiten kann, wird zusätzlich das kostenlose [PostGIS Erweiterungspaket](https://postgis.net/) benötigt.
 
@@ -43,7 +44,10 @@ Um die OSM Daten in die Datenbank zu laden kann man das Program `ogr2ogr` benutz
 
 ## Webserver
 
-Der Webserver implementiert eine REST-API mit dem Python Webframework [Flask](https://palletsprojects.com/p/flask/). Eine API Dokumentation wird automatisch generiert.
+Der Webserver implementiert eine REST-API mit dem Python Webframework [Flask](https://palletsprojects.com/p/flask/).
+
+Eine API Dokumentation wird automatisch generiert und ist unter der URL Wurzel erreichbar. Dort werden alle vorhandenen Endpunkte aufgelistet und können live getestet werden.
+![API Dokumentation](/screenshots/api_documentation.png)
 
 Die Datenbankverbindungsinformationen lassen sich in der `settings.cfg` Datei anpassen.
 
